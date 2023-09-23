@@ -1,0 +1,58 @@
+.start h1{
+    font-size: 2.5em;
+}
+
+.points span{
+font-weight: bold;
+}
+
+.tip span{
+color: #ecfa00;
+}
+
+.wordcontainer{
+margin: 1.5rem;
+padding: 1.5rem;
+border: 20px solid #ecfa00;
+display: flex;
+}
+
+.letter,
+.quadradobranco{
+    font-size: 70px;
+    line-height: 1.5;
+    border: 3px solid #000;
+    height: 100px;
+    width: 100px;
+    text-transform: uppercase;
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+    
+    
+
+
+
+}
+
+.lettercontainer p {
+    margin-bottom: 1.2em;
+  }
+  
+.lettercontainer form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.lettercontainer input {
+    height: 15px;
+    width: 85px;
+    font-size: 1em;
+    text-align: center;
+    margin-right: 1em;
+    padding-right: 30px;
+    display: block;
+    margin-top: 10px;
+  }
+  

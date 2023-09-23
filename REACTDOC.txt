@@ -1,0 +1,54 @@
+npm create vite@latest
+npm i
+npm run dev
+http://127.0.0.1:5173/
+
+/////////////////////////////////////////////////////
+const events = () => {
+const handleMyevent = (e) => { console.log(e)}
+    return(
+<div>
+<div>
+<button onClick={handleMyevent}>CLIQUE AQUI</button>
+</div>
+
+</div>
+/////////////////////////////////////////////////////////////////////////////////
+const FIRSTCOMPONENT = ()  => {
+
+return (
+<div>
+<h2>Meu primeiro componente</h2>
+
+</div>
+
+);
+
+
+}
+
+export default FIRSTCOMPONENT
+
+///////////////////////////////////
+app.jsx
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
+import './App.css'
+import FIRSTCOMPONENT from './components/firtscomponents'
+
+function App() {
+  const [count, setCount] = useState(0)
+
+  return (
+    
+      <div>
+<h1> <FIRSTCOMPONENT/></h1>
+<p className="teste">TEXTO CLASS</p>
+      </div>
+      
+    
+  )
+}
+
+export default App
